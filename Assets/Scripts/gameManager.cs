@@ -14,7 +14,7 @@ public class gameManager : MonoBehaviour
     void Start()
     {
         start = false;
- //       ball.GetComponent<Rigidbody2D>().isKinematic = true;
+        ball.GetComponent<Rigidbody2D>().isKinematic = true;
     }
 
     // Update is called once per frame
@@ -28,9 +28,7 @@ public class gameManager : MonoBehaviour
                 start = true;
                 ball.GetComponent<Rigidbody2D>().isKinematic = false;
             }
-
             Destroy(Instantiate(explosion,touchPos, Quaternion.identity),0.3f);
-
         }
     }
 }
