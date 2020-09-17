@@ -398,7 +398,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff
+      m_ExpandedIDs: 40eeffff92f0ffff90f2ffff5efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -499,11 +499,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Programming\Unity\MindStormProject
   m_LockTracker:
@@ -776,9 +776,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.017988319, y: 0.034487803, z: 0.0006208498, w: 0.9992431}
   m_Size:
-    m_Target: 9.431286
+    m_Target: 7.5141406
     speed: 2
-    m_Value: 9.431286
+    m_Value: 7.5141406
   m_Ortho:
     m_Target: 0
     speed: 2
