@@ -13,18 +13,30 @@ public class BallFall : MonoBehaviour
     void Start()
     {
         
-    }   
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "asteroid")
+        {
+            Debug.Log("game over game over game overgame over game over");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Application.Quit();
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
         //Debug.Log("game over");
         //Debug.Log(Camera.main.transform.position.y);
-        if (camera1.transform.position.y-4.9 > Ball.transform.position.y)
+
+        if (camera1.transform.position.y-4.9 > Ball.transform.position.y ||
+            camera1.transform.position.x - 3.15 > Ball.transform.position.x ||
+            camera1.transform.position.x + 3.15 < Ball.transform.position.x)
         {
             Debug.Log("game over game over game overgame over game over");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
-            // Debug.Log(Camera.main.transform.position.y );
             Application.Quit();
         }
     }

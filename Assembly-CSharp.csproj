@@ -64,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallFall.cs" />
+    <Compile Include="Assets\Scripts\asteroidControl.cs" />
+    <Compile Include="Assets\Scripts\asteroidSpawner.cs" />
     <Compile Include="Assets\Scripts\cameraControl.cs" />
     <Compile Include="Assets\Scripts\gameManager.cs" />
     <Reference Include="UnityEngine">
@@ -591,6 +593,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -654,6 +659,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -668,12 +676,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/Unity/MindStormProject/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
