@@ -67,9 +67,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingLayerID: 289719391
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300006, guid: c8260d15cb31d3d49a251f7cdb4d1777, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -148,9 +148,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: 289719391
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c8260d15cb31d3d49a251f7cdb4d1777, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -262,9 +262,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.4754157, y: 0}
   serializedVersion: 2
-  m_Radius: 8.108933
+  m_Radius: 10.58435
 --- !u!250 &3772582393685607572
 PointEffector2D:
   m_ObjectHideFlags: 0
@@ -277,12 +277,12 @@ PointEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 2
-  m_ForceMagnitude: 100
+  m_ForceMagnitude: 200
   m_ForceVariation: 0
   m_DistanceScale: 1
-  m_ForceSource: 1
-  m_ForceTarget: 0
-  m_ForceMode: 1
+  m_ForceSource: 0
+  m_ForceTarget: 1
+  m_ForceMode: 0
   m_Drag: 0
   m_AngularDrag: 0
 --- !u!1 &162364
@@ -352,8 +352,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 289719391
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300004, guid: c8260d15cb31d3d49a251f7cdb4d1777, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -433,9 +433,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingLayerID: 289719391
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300002, guid: c8260d15cb31d3d49a251f7cdb4d1777, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

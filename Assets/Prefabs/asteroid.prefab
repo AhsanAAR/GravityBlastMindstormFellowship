@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6929203963433757915}
   - component: {fileID: 6929203963433757912}
   - component: {fileID: 6929203963433757913}
-  - component: {fileID: 5543948504793189916}
+  - component: {fileID: 6268510237944194503}
   m_Layer: 0
   m_Name: asteroid
   m_TagString: asteroid
@@ -69,15 +69,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 289719391
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 88b0886853024e2429220a65d8dd3d67, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4a533cc96395f8948b27456b5104c7ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.9, y: 1.27}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -104,8 +104,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &5543948504793189916
-BoxCollider2D:
+--- !u!60 &6268510237944194503
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,12 +121,36 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.9, y: 1.27}
+    newSize: {x: 1.9, y: 1.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.95, y: 0.015}
+      - {x: 0.95, y: 0.305}
+      - {x: 0.87, y: 0.45499998}
+      - {x: 0.79999995, y: 0.505}
+      - {x: 0.58, y: 0.60499996}
+      - {x: 0.45999998, y: 0.635}
+      - {x: -0.04, y: 0.635}
+      - {x: -0.32, y: 0.615}
+      - {x: -0.39, y: 0.585}
+      - {x: -0.62, y: 0.515}
+      - {x: -0.89, y: 0.285}
+      - {x: -0.95, y: 0.105}
+      - {x: -0.95, y: -0.145}
+      - {x: -0.90999997, y: -0.235}
+      - {x: -0.72999996, y: -0.42499998}
+      - {x: -0.64, y: -0.465}
+      - {x: -0.52, y: -0.48499998}
+      - {x: -0.34, y: -0.615}
+      - {x: -0.099999994, y: -0.585}
+      - {x: 0.16, y: -0.525}
+      - {x: 0.22999999, y: -0.635}
+      - {x: 0.53999996, y: -0.635}
+      - {x: 0.72999996, y: -0.585}
+      - {x: 0.79999995, y: -0.505}
+      - {x: 0.78999996, y: -0.195}

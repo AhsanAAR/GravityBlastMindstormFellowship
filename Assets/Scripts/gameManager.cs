@@ -28,7 +28,10 @@ public class gameManager : MonoBehaviour
                 start = true;
                 ball.GetComponent<Rigidbody2D>().isKinematic = false;
             }
-            Destroy(Instantiate(explosion,touchPos, Quaternion.identity),0.3f);
+            var instance = Instantiate(explosion, touchPos, Quaternion.identity);
+            var effector = instance.GetComponent<PointEffector2D>();
+            Destroy(effector, 0.1f);
+            Destroy(instance, 0.4f);
         }
     }
 }

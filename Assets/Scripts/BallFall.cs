@@ -31,9 +31,7 @@ public class BallFall : MonoBehaviour
         //Debug.Log("game over");
         //Debug.Log(Camera.main.transform.position.y);
 
-        if (camera1.transform.position.y-4.9 > Ball.transform.position.y ||
-            camera1.transform.position.x - 3.15 > Ball.transform.position.x ||
-            camera1.transform.position.x + 3.15 < Ball.transform.position.x)
+        if (camera1.transform.position.y-4.9 > Ball.transform.position.y)
         {
             Debug.Log("game over game over game overgame over game over");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
