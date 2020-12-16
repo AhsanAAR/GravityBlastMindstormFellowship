@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3114213355323723795}
   - component: {fileID: 3114213355323723794}
   - component: {fileID: 3114213355323723797}
-  - component: {fileID: 3114213355323723793}
   - component: {fileID: -5986666973936289196}
   - component: {fileID: 1701298283}
   m_Layer: 0
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3114213355323723796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.83, y: 2.03, z: -10}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1584158025
-  m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingLayerID: 1040181841
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: eea81955c8cd24e4eb301320995abeca, type: 3}
   m_Color: {r: 0.5673282, g: 0.5754717, b: 0.5754717, a: 1}
   m_FlipX: 0
@@ -122,19 +121,19 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1584158025
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: 1040181841
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_Time: 0.3
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 0.05
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.15833163
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -191,20 +190,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 1
   m_Emitting: 1
---- !u!114 &3114213355323723793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3114213355323723796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b19df65365f31742940d095a25799c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  parallex: 0.3
 --- !u!50 &-5986666973936289196
 Rigidbody2D:
   serializedVersion: 4

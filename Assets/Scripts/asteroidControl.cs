@@ -1,6 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 
 public class asteroidControl : MonoBehaviour
@@ -8,6 +9,8 @@ public class asteroidControl : MonoBehaviour
     public GameObject asteroid;
     public float speed;
     public float angleDegree;
+    public float rotateSpeed;
+    public bool rotate;
 
 
     // Start is called before the first frame update
@@ -27,9 +30,10 @@ public class asteroidControl : MonoBehaviour
         randomY = Random.Range(randomY - 2f, randomY + 2f);
         var a = Instantiate(asteroid, new Vector3(transform.position.x, randomY), Quaternion.identity);
         float randomAngleDegree = Random.Range(angleDegree - 10, angleDegree + 10);
+        var script = a.GetComponent<asteroidRotation>();
+        if(rotate) script.rotateSpeed = rotateSpeed;
         float radians = randomAngleDegree * Mathf.PI / 180;
         a.GetComponent<Rigidbody2D>().velocity = new Vector2(speed * Mathf.Cos(radians), speed * Mathf.Sin(radians));
         Destroy(a, 3f);
-
     }
 }

@@ -63,12 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BallFall.cs" />
+    <Compile Include="Assets\Scripts\BallControl.cs" />
+    <Compile Include="Assets\Scripts\CharacterControl.cs" />
     <Compile Include="Assets\Scripts\asteroidControl.cs" />
     <Compile Include="Assets\Scripts\asteroidSpawner.cs" />
-    <Compile Include="Assets\Scripts\backgroundMovement.cs" />
     <Compile Include="Assets\Scripts\cameraControl.cs" />
     <Compile Include="Assets\Scripts\gameManager.cs" />
+    <Compile Include="Assets\Scripts\tapToPlay.cs" />
+    <Compile Include="Assets\asteroidRotation.cs" />
+    <Compile Include="Assets\continuousPlay.cs" />
+    <Compile Include="Assets\jetPackTrail.cs" />
+    <Compile Include="Assets\movement.cs" />
+    <Compile Include="Assets\randomAsteroid.cs" />
+    <Compile Include="Assets\scoreManager.cs" />
+    <Compile Include="Assets\screenColliders.cs" />
+    <Compile Include="Assets\soundManager.cs" />
     <Compile Include="Assets\starShooter.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - asteroid
+  - collision
+  - destroy
+  - ballTrigger
   layers:
   - Default
   - TransparentFX
@@ -44,6 +47,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1584158025
+    locked: 0
+  - name: Middleground
+    uniqueID: 1040181841
     locked: 0
   - name: Foreground
     uniqueID: 289719391
